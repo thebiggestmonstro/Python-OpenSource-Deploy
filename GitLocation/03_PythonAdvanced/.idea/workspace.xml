@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98331375-f522-44c5-959c-b0c546f7a32c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03_01_MetaClass_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_02_MetaClass_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_03_MetaClass_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,9 @@
   "keyToString": {
     "Python.03_01_MetaClass_01.executor": "Run",
     "Python.03_02_MetaClass_02.executor": "Run",
+    "Python.03_03_MetaClass_03.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.py_ad_3_3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
