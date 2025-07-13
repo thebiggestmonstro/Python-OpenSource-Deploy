@@ -16,6 +16,7 @@ class DirectoryFileCount:
     def __get__(self, obj, objtype=None):
         print(os.listdir((obj.dirname)))
         return len(os.listdir(obj.dirname))
+
 class DirectoryPath:
     # Descriptor Instance
     size = DirectoryFileCount()
@@ -65,7 +66,6 @@ class Student:
 
 
 s1 = Student('Kim')
-s2 = Student('Lee')
 
 # 점수 확인(s1)
 print(s1.score)
@@ -73,12 +73,12 @@ s1.score += 10
 print(s1.score)
 
 # 점수 확인(s2)
-print(s2.score)
-s2.score += 20
-print( s2.score)
+#print(s2.score)
+#s2.score += 20
+#print( s2.score)
 
 # __dict__ 확인
-print(vars(s1))
-print(vars(s2))
-print(s1.__dict__)
-print(s2.__dict__)
+#print(vars(s1))
+#print(vars(s2))
+#print(s1.__dict__)
+#print(s2.__dict__)
