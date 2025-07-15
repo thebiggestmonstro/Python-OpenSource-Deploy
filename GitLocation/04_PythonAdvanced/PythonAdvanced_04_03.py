@@ -33,3 +33,14 @@ g.generate_gif()
 
 # 이 중에서 2) + 3) + 7) 파일들은 반드시 필요하다
 # 그러나 Git을 통해 파일을 배포하지 않는 이상, 2) ~ 7)까지의 파일들은 기본적으로 사용하는 것이 좋다
+
+# 이후의 작업
+# 8) setuptools 플러그인과 wheel 플러그인을 설치하여 패키징
+# 가상환경에서 작업하는 경우 설치 방법 : python -m pip install --upgrade setuptools wheel
+# 가상환경에서 작업하지 않는 경우 설치 방법 : python -m pip install --user --upgrade setuptools wheel
+# 9) 패키징된 패키지를 빌드하여 배포파일 생성 : python setup.py sdist bdist_wheel
+# 10) 빌드 결과물 확인 : dist 폴더 -> 패키지 이름-버전.gz 압축파일
+# 11) PYPI 배포 첫 번째 단계(필요한 플러그인 설치) : pip install twine
+# 12) PYPI 배포 두 번째 단계(업로드) : python -m twine upload dist/*
+# 13) 패키지 설치 확인 : pip install pygifgenerator_testver
+# 14) 패키지 사용 : from pygifgenerator_testver.gifgenerator import GIFGenerator
