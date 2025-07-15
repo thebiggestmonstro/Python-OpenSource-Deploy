@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name             = 'pygifconvt',
+    name             = 'pygifgenerator_testver',
     version          = '1.0.0',
     description      = 'Test package for distribution',
-    author           = 'Eunki7',
-    author_email     = 'outsider7224@gmail.com',
+    author           = 'Monstro',
+    author_email     = '',
     url              = '',
     download_url     = '',
     install_requires = ['pillow'],
 	include_package_data=True,
 	packages=find_packages(),
-    keywords         = ['GIFCONVERTER', 'gifconverter'],
+    keywords         = ['GIFGENERATOR', 'gifgenerator'],
     python_requires  = '>=3',
     zip_safe=False,
     classifiers      = [

@@ -19,9 +19,9 @@ $ pip install git+'repository'
 
 ## Quick start
 ```python
- >>> from pygifconvt.converter import GifConverter
- >>> c = GifConverter("your original images path", 'your gif output path', (320,240))
- >>> c.convert_gif()
+ >>> from pygifgenerator_testver.gifgenerator import GIFGenerator
+ >>> c = GIFGenerator("your original images path", 'your gif output path', (320,240))
+ >>> c.generate_gif()
 ```
 
 ## Features
